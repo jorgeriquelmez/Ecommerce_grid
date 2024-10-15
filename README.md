@@ -1,2 +1,2 @@
 # Ecommerce_grid
-![Portada](https://ibb.co/vH8k1MQ)
+![Portada](https://i.ibb.co/2yBdqps/portada-ecommerce.png)
