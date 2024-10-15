@@ -1,0 +1,107 @@
+body{
+  background-color: rgb(231, 231, 231);
+}
+.Navbar{
+  grid-area: Navbar;
+  background-color: rgb(37, 82, 123);
+  color: white;
+  text-align: center;
+  font-size: 0.6rem;
+  width: 100%;
+}
+.AsideBar{
+  grid-area: AsideBar;
+}
+.GrillaProductos{
+  grid-area: GrillaProductos;
+}
+#boton{
+  background-color: rgb(37, 82, 123);
+  color: white;
+  border: none;
+  width: 100%;
+  height: 2rem;
+  transition: background-color 0.3s ease; /*para que se vea mejor el boton de compra*/
+}
+/*efecto para el boton de compra*/
+#boton:hover{
+  background-color: rgb(87, 136, 185);
+  cursor: pointer;
+}
+
+.PiePagina {
+  grid-area: PiePagina;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+    "Navbar Navbar"
+    "AsideBar GrillaProductos"
+    "PiePagina PiePagina";
+  gap: 10px;
+}
+.PiePagina, .Navbar {
+  margin-right: 20px;
+}
+.AsideBar{
+  display: flex;
+  flex-direction: column;
+}
+.AsideBar p{
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+#venta{
+  cursor: pointer;
+}
+#disponible{
+  color: grey;
+}
+.GrillaProductos{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 10px;
+}
+.caja1, .caja2, .caja3, .caja4{
+  width: 320px;
+  height: 430px;
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#item{
+  margin: 0 1rem;
+}
+#precio{
+  margin: 1rem;
+}
+.producto{
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.caja1{
+  background-image: url(../imgs/kingdom.jpg);
+
+}
+.caja2{
+  background-image: url(../imgs/phantom.jpg);
+
+}
+.caja3{
+  background-image: url(../imgs/docker.jpg);
+}
+.caja4{
+  background-image: url(../imgs/puma.jpg);
+}
+
+
+
+
+
