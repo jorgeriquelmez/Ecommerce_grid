@@ -42,6 +42,7 @@ body{
     "AsideBar GrillaProductos"
     "PiePagina PiePagina";
   gap: 10px;
+  grid-template-columns:1fr 2fr;
 }
 .PiePagina, .Navbar {
   margin-right: 20px;
